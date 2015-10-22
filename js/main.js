@@ -1,15 +1,18 @@
 $(document).ready(function(){
 
-	// var $ = $('.gallery');
+var $firsthero = $('img:first');
+var $lasthero = $('img:last');
 
-	$('img:first').addClass('shown');
+	$firsthero.addClass('shown');
 	$('.name').text('BUTMAN');
+	// $('.name').text$firsthero.attr("alt");
 
-	// $('.next').addEventListener('click', function() {
 
-	// 		alert("Hello!")
-	// 		});
-
+	$('.next').on('click', function() {
+		$firsthero.removeClass('shown');
+		// $.addClass('shown');
+		$('.name').text('CAPTAIN MURICA');
+	});
 }); 
 
 
