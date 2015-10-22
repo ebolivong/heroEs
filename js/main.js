@@ -1,8 +1,14 @@
 $(document).ready(function(){
 
-	var $this = $('.gallery');
+	// var $ = $('.gallery');
 
-	$('this li:first').addClass('.shown');
+	$('img:first').addClass('shown');
+	$('.name').text('BUTMAN');
+
+	// $('.next').addEventListener('click', function() {
+
+	// 		alert("Hello!")
+	// 		});
 
 }); 
 
